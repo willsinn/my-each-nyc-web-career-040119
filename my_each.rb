@@ -1,9 +1,8 @@
-def my_each(words)
-  i=0
-  while i < words.length 
-  yield (word)
+def my_each(collection)
+  i = 0
+  while i < collection.length
+    yield(collection[i])
+    i = i + 1
+  end
+  collection
 end
-
-    def  my_each(words) do |word|
-         puts word
-       end
